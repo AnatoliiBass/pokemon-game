@@ -1,17 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
 import styleFooter from './Footer.module.css'
 
 const Footer = () => {
    return (
-      <>
-         <footer>
-            <div className={styleFooter.wrapper}>
-               <h3>THANKS FOR VISITING</h3>
-               <p>© 2021 #ReactMarathon.</p>
-            </div>
-         </footer>
-      </>
+      <footer>
+         <div className={styleFooter.wrapper}>
+            <h3>THANKS FOR VISITING</h3>
+            <p>© 2021 #ReactMarathon.</p>
+         </div>
+      </footer>
    );
 }
 
