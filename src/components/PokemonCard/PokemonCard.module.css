@@ -31,7 +31,6 @@
 }
 
 .pokemonCard.active {
-   cursor: inherit;
    transform: rotateY(0deg);
 }
 

@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 const PokemonCard = ({ name, img, id, type, values }) => {
    const [isActive, setActive] = useState(false);
-   const onClickPokemon = () => setActive(true);
+   const onClickPokemon = () => setActive(!isActive);
    return (
       <div className={stylePokemonCard.root} onClick={onClickPokemon}>
          <div className={`${stylePokemonCard.pokemonCard} ${isActive ? stylePokemonCard.active : ''}`}>
